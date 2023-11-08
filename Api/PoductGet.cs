@@ -21,5 +21,4 @@ public class ProductsGet
     {
         var products = await productData.GetProducts();
         return new OkObjectResult(products);
-    }
 }
