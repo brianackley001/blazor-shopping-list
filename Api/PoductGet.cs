@@ -9,7 +9,7 @@ namespace Api;
 public class ProductsGet
 {
     private readonly IProductData productData;
-
+    // COMMENT
     public ProductsGet(IProductData productData)
     {
         this.productData = productData;
