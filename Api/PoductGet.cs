@@ -21,6 +21,4 @@ public class ProductsGet
     {
         var products = await productData.GetProducts();
         return new OkObjectResult(products);
-        // trigger another PR & Preview URL ins Azure Static Web Apps...
-    }
 }
